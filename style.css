@@ -7,7 +7,6 @@
 
 body {
     font-family: "Inter", sans-serif;
-    font-weight: 700;
     color: #303030;
 }
 
@@ -20,6 +19,7 @@ header {
 header span {
     /* Стили для текста в хедере IT-INCUBATOR */
     font-size: 20px;
+    font-weight: 700;
     color: #FFFFFF;
 }
 
@@ -34,6 +34,7 @@ header span {
     /* Стили для заголовка в первой секции */
     margin-bottom: 20px;
     font-size: 48px;
+    font-weight: 700;
 }
 
 .main-text {
@@ -67,20 +68,21 @@ select {
 .section-title {
     /* Стили для заголовков во второй секции */
     font-size: 24px;
+    font-weight: 700;
     margin-bottom: 25px;
 }
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
-    list-style-image: url(./icons/solar_map-arrow-up-bold.svg);
-    padding-left: 20px;
+    list-style-image: url("./icons/solar_map-arrow-up-bold.svg");
+    padding: 0 20px;
     font-weight: 400;
     font-size: 16px;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
-    padding-left: 20px;
+    padding: 0 20px;
     font-weight: 400;
     font-size: 16px;
 }
@@ -108,6 +110,7 @@ select {
     background: #2965f1;
     border-radius: 5px;
     font-size: 14px;
+    font-weight: 700;
     color: #fff;
     border: none;
 }
@@ -120,22 +123,22 @@ select {
 table {
     /* Стили для таблицы */
     border-collapse: collapse;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #95A1BB;
 }
 
 th {
-    font-size: 14px;
     text-align: center;
 }
 
 td {
     font-weight: 400;
-    font-size: 14px;
 }
 
 th, td {
     /* Стили для ячеек таблицы */
-    border: 1px solid #95A1BB;
-    padding: 11px 15px 12px;
+    padding: 12px 15px;
 }
 
 footer {
